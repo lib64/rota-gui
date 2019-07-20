@@ -6,8 +6,7 @@
 
 #include <algorithm>
 
-const int ELLIPSE_SIZE = 10;
-const int RECURSION_DEPTH = 5;
+#define ELLIPSE_SIZE 10
 
 // Each entry is a list of positions that are next to the
 // position denoted by the index of the entry.

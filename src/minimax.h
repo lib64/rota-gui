@@ -3,6 +3,8 @@
 
 #include "board.h"
 
+#define RECURSION_DEPTH 5
+
 int minimax(const Board &board, int depth);
 
 #endif // MINIMAX_H
