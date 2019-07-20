@@ -60,6 +60,5 @@ public:
 };
 
 bool isBoardEmpty(const string &board);
-int minimax(const Board &board, int depth);
 
 #endif // BOARD_H

@@ -11,8 +11,6 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = Rota-Gui
 TEMPLATE = app
 
-QMAKE_CXXFLAGS_DEBUG += -Wall
-
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which as been marked as deprecated (the exact warnings
 # depend on your compiler). Please consult the documentation of the
@@ -28,12 +26,14 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += main.cpp\
         mainwindow.cpp \
     board.cpp \
+    minimax.cpp \
     move.cpp \
     connectdialog.cpp \
     rotareply.cpp
 
 HEADERS  += mainwindow.h \
     board.h \
+    minimax.h \
     move.h \
     connectdialog.h \
     rotareply.h
